@@ -8,10 +8,6 @@ ou seja, se o user digitar 20, será sorteado um numero entre 1 a 20.
 > receives a limit number, to be drawn "up to that number".
 that is, if the user types 20, a number between 1 to 20 will be drawn.
 
-# Download do App: 
-
-- [click here!](https://drive.google.com/file/d/1W_Rv-U1jIyEuMwfh10hVykiDcX7h04rA/view?usp=sharing)
-
 ## status do desenvolvimento: development status:
 - in construction ⏳
 
