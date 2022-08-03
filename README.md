@@ -10,9 +10,3 @@ that is, if the user types 20, a number between 1 to 20 will be drawn.
 
 # Status do desenvolvimento: Development status:
 - in construction ⏳
-
-# Tem Licença? Have License?
-
-> Todo código desenvolvido aqui é livre para ser usado, baixado como quiser.
-
-> All code developed here is free to use, downloaded as you wish.
