@@ -8,7 +8,7 @@ ou seja, se o user digitar 20, será sorteado um numero entre 1 a 20.
 > receives a limit number, to be drawn "up to that number".
 that is, if the user types 20, a number between 1 to 20 will be drawn.
 
-## status do desenvolvimento: development status:
+# Status do desenvolvimento: Development status:
 - in construction ⏳
 
 # Tem Licença? Have License?
