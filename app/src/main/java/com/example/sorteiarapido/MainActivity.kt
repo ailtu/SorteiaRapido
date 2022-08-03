@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
     fun sorteio(view: View) {
 
         val texto = findViewById<TextView>(R.id.nmrSorteado)
-        var goTo = findViewById<TextView>(R.id.cxRecebeNumero)
-        var numSorteado = Random.nextInt(goTo + 1)
+        var goTo = findViewById<>(R.id.cxRecebeNumero)
+        var numSorteado = Random.nextInt(goTo)
 
         texto.text = "O Número sorteado é: " + numSorteado
     }
