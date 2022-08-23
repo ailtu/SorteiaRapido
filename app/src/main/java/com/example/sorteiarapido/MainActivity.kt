@@ -1,9 +1,9 @@
 package com.example.sorteiarapido
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
@@ -13,11 +13,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sorteio(view: View) {
-
-        val texto = findViewById<TextView>(R.id.nmrSorteado)
-        var goTo = findViewById<>(R.id.cxRecebeNumero)
-        var numSorteado = Random.nextInt(goTo)
-
-        texto.text = "O Número sorteado é: " + numSorteado
+        val texto = findViewById<TextView>(R.id.outPutNumSorteado)
+        val numSorteado = Random.nextInt(10 + 1)
+        texto.text = "> " + numSorteado
     }
 }

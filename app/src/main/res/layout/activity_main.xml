@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteY="-34dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/botaoSortea"
         android:layout_width="125dp"
         android:layout_height="53dp"
         android:onClick="sorteio"
@@ -30,37 +30,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.358" />
-
-    <EditText
-        android:id="@+id/cxRecebeNumero"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Sortear até o número:"
-        android:inputType="number"
-        android:textAlignment="textStart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintVertical_bias="0.753" />
 
     <TextView
-        android:id="@+id/nmrSorteado"
+        android:id="@+id/outPutNumSorteado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Número sorteado aqui:"
         android:textAlignment="center"
         android:textColor="#D3D0D0"
-        android:textSize="20sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/alert_numSorteado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O NUMERO SORTEADO É:"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
