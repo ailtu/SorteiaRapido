@@ -1,5 +1,6 @@
 package com.example.sorteiarapido
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -12,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    @SuppressLint("SetTextI18n")
     fun sorteio(view: View) {
         val texto = findViewById<TextView>(R.id.outPutNumSorteado)
         val numSorteado = Random.nextInt(10 + 1)
