@@ -9,4 +9,4 @@ ou seja, se o user digitar 20, será sorteado um numero entre 1 a 20.
 that is, if the user types 20, a number between 1 to 20 will be drawn.
 
 # Status do desenvolvimento: Development status:
-- in construction ⏳
+- finalizado ✔️
